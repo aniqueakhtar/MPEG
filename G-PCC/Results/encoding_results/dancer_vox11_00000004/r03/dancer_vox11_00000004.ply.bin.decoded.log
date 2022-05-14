@@ -1,0 +1,24 @@
+MPEG PCC tmc3 version 
++ Effective configuration parameters
+    mode                  : 1
+    firstFrameNum         : 0
+    frameCount            : 1
+    reconstructedDataPath : "dancer_vox11_00000004.ply.bin.decoded.ply"
+    uncompressedDataPath  : "/home/anique/Anique/Coding/Interpolation_2/Comparison_1/Results/Test_Files/dancer/dancer_vox11_00000004.ply"
+    compressedStreamPath  : "dancer_vox11_00000004.ply.bin"
+    postRecolorPath       : ""
+    preInvScalePath       : ""
+    convertPlyColourspace : 1
+    outputBinaryPly       : 1
+    outputUnitLength      : 1
+    outputScaling         : 1 (External)
+    outputPrecisionBits   : -1
+    skipOctreeLayers : 0
+    decodeMaxPoints  : 0
+
+positions bitstream size 6360 B
+positions processing time (user): 0.046 s
+
+Total bitstream size 6396 B
+Processing time (wall): 0.064 s
+Processing time (user): 0.05 s

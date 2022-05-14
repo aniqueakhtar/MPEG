@@ -1,0 +1,101 @@
+MPEG PCC tmc3 version 
++ Effective configuration parameters
+    mode                  : 0
+    firstFrameNum         : 0
+    frameCount            : 1
+    reconstructedDataPath : "dancer_vox11_00000001.ply.bin.ply"
+    uncompressedDataPath  : "/home/anique/Anique/Coding/Interpolation_2/Comparison_1/Results/Test_Files/dancer/dancer_vox11_00000001.ply"
+    compressedStreamPath  : "dancer_vox11_00000001.ply.bin"
+    postRecolorPath       : ""
+    preInvScalePath       : ""
+    convertPlyColourspace : 1
+    outputBinaryPly       : 1
+    outputUnitLength      : 1
+    outputScaling         : 1 (External)
+    outputPrecisionBits   : -1
+    srcUnitLength             : 1
+    srcUnit                   : 0 (Dimensionless)
+    inputScale                : 1
+    codingScale               : 0.8
+    sequenceScale             : 0.8
+    positionQuantizationScale : 0.8
+    externalScale             : 1
+    sortInputByAzimuth               : 0
+    geometry_axis_order              : 1 (xyz)
+    autoSeqBbox                      : 1
+    seqOrigin                        : 0, 0, 0
+    seqSizeWhd                       : 0, 0, 0
+    mergeDuplicatedPoints            : 1
+    partitionMethod                  : 4 (UniformSquare)
+    partitionOctreeDepth             : 1
+    sliceMaxPoints                   : 1100000
+    sliceMinPoints                   : 550000
+    tileSize                         : 0
+    cabac_bypass_stream_enabled_flag : 0
+    entropyContinuationEnabled       : 0
+    disableAttributeCoding           : 0
+    enforceLevelLimits               : 1
+    geomTreeType                       : 0
+    qtbtEnabled                        : 1
+    maxNumQtBtBeforeOt                 : 4
+    minQtbtSizeLog2                    : 0
+    numOctreeEntropyStreams            : 0
+    bitwiseOccupancyCoding             : 1
+    neighbourAvailBoundaryLog2         : 7
+    inferredDirectCodingMode           : 0
+    jointTwoPointIdcm                  : 1
+    adjacentChildContextualization     : 1
+    intra_pred_max_node_size_log2      : 6
+    planarEnabled                      : 1
+    planarModeThreshold0               : 77
+    planarModeThreshold1               : 99
+    planarModeThreshold2               : 113
+    planarModeIdcmUse                  : -1
+    trisoupNodeSizeLog2                : 
+    trisoup_sampling_value             : 0
+    positionQuantisationEnabled        : 0
+    positionQuantisationMethod         : 0 (Uniform)
+    positionQpMultiplierLog2           : 0
+    positionBaseQp                     : 0
+    positionIdcmQp                     : 0
+    positionSliceQpOffset              : 0
+    positionQuantisationOctreeSizeLog2 : -1
+    positionQuantisationOctreeDepth    : -1
+    positionBaseQpFreqLog2             : 8
+    positionSliceQpFreqLog2            : -8
+    angularEnabled                     : 0
+    lidarHeadPosition                  : 0, 0, 0
+    numLasers                          : 0
+    lasersTheta                        : 
+    lasersZ                            : 
+    lasersNumPhiPerTurn                : 
+    planarBufferDisabled               : 0
+    predGeomAzimuthQuantization        : 1
+    positionAzimuthScaleLog2           : 5
+    positionAzimuthSpeed               : 362
+    positionRadiusInvScaleLog2         : 0
+    predGeomSort                       : 1 (Morton)
+    predGeomAzimuthSortPrecision       : 0
+    predGeomTreePtsMax                 : 1100000
+    pointCountMetadata                 : 0
+    recolourSearchRange                             : 1
+    recolourNumNeighboursFwd                        : 8
+    recolourNumNeighboursBwd                        : 1
+    recolourUseDistWeightedAvgFwd                   : 1
+    recolourUseDistWeightedAvgBwd                   : 1
+    recolourSkipAvgIfIdenticalSourcePointPresentFwd : 1
+    recolourSkipAvgIfIdenticalSourcePointPresentBwd : 0
+    recolourDistOffsetFwd                           : 4
+    recolourDistOffsetBwd                           : 4
+    recolourMaxGeometryDist2Fwd                     : 1000
+    recolourMaxGeometryDist2Bwd                     : 1000
+    recolourMaxAttributeDist2Fwd                    : 1000
+    recolourMaxAttributeDist2Bwd                    : 1000
+
+Slice number: 1
+positions bitstream size 55103 B (0.966916 bpp)
+positions processing time (user): 1.279 s
+Total frame size 55140 B
+Total bitstream size 55140 B
+Processing time (wall): 2.783 s
+Processing time (user): 2.23 s

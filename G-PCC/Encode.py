@@ -60,7 +60,7 @@ if __name__ == '__main__':
             
     # Store all the parameters
     params = []
-    for input_pc in files:
+    for input_pc in files[:4]:
         filename = os.path.split(input_pc)[-1].split('.')[0]
         
         for rate in rates:

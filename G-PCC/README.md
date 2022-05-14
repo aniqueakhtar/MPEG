@@ -39,3 +39,6 @@ RuntimeError: python mp_report.py /home/anique/Anique/Coding/MPEG/My_Code/G-PCC/
 
 ## Further Improvements
 Please do let me know if there are any comments or suggested improvements to this work.
+
+I ran the experiments in a bit of a hurry. I am sure their might be small errors here and there in the code. Please do let me know so we can fix them.
+Thanks

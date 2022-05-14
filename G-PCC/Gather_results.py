@@ -44,7 +44,7 @@ if __name__ == '__main__':
     
     ## Running parameters in parallel
     logger.info('Generating GPCC experimental reports')
-    parallel_process(run_gen_report, params, 1)
+    parallel_process(run_gen_report, params, args.num_parallel)
     logger.info('Done')
     
     # Calculating average from csv files

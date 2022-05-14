@@ -1,0 +1,36 @@
+PCC quality measurement software, version 0.13.4
+
+infile1:        /home/anique/Anique/Coding/Interpolation_2/Comparison_1/Results/Test_Files/dancer/dancer_vox11_00000004.ply
+infile2:        dancer_vox11_00000004.ply.bin.decoded.ply
+normal1:        
+singlePass:     0
+hausdorff:      0
+color:          1
+lidar:          1
+resolution:     1023
+dropDuplicates: 2
+neighborsProc:  1
+averageNormals: 1
+nbThreads:      1
+
+Verifying if the data is loaded correctly.. The last point is: 612 4 404
+Reading file 1 done.
+Verifying if the data is loaded correctly.. The last point is: 400 882.5 460
+Reading file 2 done.
+Imported intrinsic resoluiton: 1023
+Peak distance for PSNR: 1023
+Point cloud sizes for org version, dec version, and the scaling ratio: 697896, 452940, 0.649008
+Normals prepared.
+
+WARNING: no color properties in input files, disabling color metrics.
+WARNING: no reflectance property in input files, disabling reflectance metrics.
+1. Use infile1 (A) as reference, loop over A, use normals on B. (A->B).
+   mse1      (p2point): 0.375142
+   mse1,PSNR (p2point): 69.2268
+2. Use infile2 (B) as reference, loop over B, use normals on A. (B->A).
+   mse2      (p2point): 0.314318
+   mse2,PSNR (p2point): 69.995
+3. Final (symmetric).
+   mseF      (p2point): 0.375142
+   mseF,PSNR (p2point): 69.2268
+Job done! 4.129 seconds elapsed (excluding the time to load the point clouds).
