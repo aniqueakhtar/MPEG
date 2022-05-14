@@ -1,3 +1,7 @@
+'''
+Author: Anique Akhtar
+Contact: https://aniqueakhtar.github.io/
+'''
 import argparse
 import logging
 import multiprocessing

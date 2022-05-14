@@ -1,3 +1,7 @@
+'''
+Author: Anique Akhtar
+Contact: https://aniqueakhtar.github.io/
+'''
 import argparse
 import logging
 import multiprocessing
@@ -40,7 +44,7 @@ if __name__ == '__main__':
     parser.add_argument('--cfg_folder', default="/home/anique/Anique/Coding/MPEG/My_Code/G-PCC/test_cfg")
     
     parser.add_argument('--results_dir', default='/home/anique/Anique/Coding/MPEG/My_Code/G-PCC/Results/')
-    parser.add_argument('--test_files', default='/home/anique/Anique/Coding/Interpolation_2/Comparison_1/Results/Test_Files/dancer')
+    parser.add_argument('--test_files', default='/home/anique/Anique/Coding/Interpolation_2/Comparison_1/Results/Test_Files/soldier')
     
     parser.add_argument('--tmc13_dir', default="/home/anique/Anique/Coding/MPEG/My_Code/G-PCC/mpeg-pcc-tmc13-master")
     parser.add_argument('--pcerror', default="/home/anique/Anique/Coding/MPEG/My_Code/G-PCC/utils/pc_error_d")

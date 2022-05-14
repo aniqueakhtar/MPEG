@@ -1,3 +1,7 @@
+'''
+Author: Anique Akhtar
+Contact: https://aniqueakhtar.github.io/
+'''
 import argparse
 import glob
 import os
@@ -101,7 +105,7 @@ if __name__ == '__main__':
     # '''
     # mse_list = []
     # angle_list = []
-    # for frame in test_files[:1]:
+    # for frame in test_files:
     #     print(frame)
     #     (xyz, n) = pcu.load_mesh_vn(frame)
     #     mse = []
