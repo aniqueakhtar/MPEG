@@ -31,7 +31,7 @@ keep pandas updated. Older version of pandas gives an error on this line:
 pd1 = pd.DataFrame(data, index=['i',])
 ```
 
-If you get this error, try running the file in the terminal:
+If you get the following error, try running the file in the terminal:
 ```
 RuntimeError: python mp_report.py /home/anique/Anique/Coding/MPEG/My_Code/G-PCC/Results/encoding_results/dancer_vox11_00000002 /home/anique/Anique/Coding/MPEG/My_Code/G-PCC/Results/fig /home/anique/Anique/Coding/MPEG/My_Code/G-PCC/Results/csvs returned with code 1
 ```
