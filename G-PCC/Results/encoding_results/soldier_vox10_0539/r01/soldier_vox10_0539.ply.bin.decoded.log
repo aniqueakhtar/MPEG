@@ -1,0 +1,24 @@
+MPEG PCC tmc3 version 
++ Effective configuration parameters
+    mode                  : 1
+    firstFrameNum         : 0
+    frameCount            : 1
+    reconstructedDataPath : "soldier_vox10_0539.ply.bin.decoded.ply"
+    uncompressedDataPath  : "/home/anique/Anique/Coding/Interpolation_2/Comparison_1/Results/Test_Files/soldier/soldier_vox10_0539.ply"
+    compressedStreamPath  : "soldier_vox10_0539.ply.bin"
+    postRecolorPath       : ""
+    preInvScalePath       : ""
+    convertPlyColourspace : 1
+    outputBinaryPly       : 1
+    outputUnitLength      : 1
+    outputScaling         : 1 (External)
+    outputPrecisionBits   : -1
+    skipOctreeLayers : 0
+    decodeMaxPoints  : 0
+
+positions bitstream size 973 B
+positions processing time (user): 0.002 s
+
+Total bitstream size 1007 B
+Processing time (wall): 0.017 s
+Processing time (user): 0.002 s
