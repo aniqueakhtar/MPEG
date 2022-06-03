@@ -17,18 +17,8 @@ I run V-PCC using the following command:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+You will have to edit the sequence file for each sequence:
+mpeg-pcc-tmc2-master/cfg/sequences/Owlii.cfg
 
 
 
