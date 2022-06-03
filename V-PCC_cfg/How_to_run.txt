@@ -1,0 +1,37 @@
+
+
+
+I run V-PCC using the following command:
+
+/home/anique/V-PCC/mpeg-pcc-tmc2-master/bin/PccAppEncoder
+ --configurationFolder=/home/anique/V-PCC/mpeg-pcc-tmc2-master/cfg/
+ --config=/home/anique/V-PCC/mpeg-pcc-tmc2-master/cfg/common/ctc-common.cfg
+ --config=/home/anique/V-PCC/mpeg-pcc-tmc2-master/cfg/condition/ctc-all-intra.cfg
+ --config=/home/anique/V-PCC/mpeg-pcc-tmc2-master/cfg/sequences/Owlii.cfg
+ --config=/home/anique/V-PCC/mpeg-pcc-tmc2-master/cfg/rate/ctc-r7.cfg
+ --reconstructedDataPath=/home/anique/Results/basketball_%04d.ply
+ --compressedStreamPath=/home/anique/Results/basketball_r7.bin
+ --nbThread=16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
